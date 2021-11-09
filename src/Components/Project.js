@@ -21,7 +21,7 @@ function Project({width, height}) {
             <div className="Project-Back-Button" style={ width > 620 ? {width: 600} : width > 600 ? {width: 600, marginLeft: '20pt'} : {width: '100%', marginLeft: '20pt'} }>
                 <Link to={'/Projects'} style={{ display: 'flex', alignItems: 'center', textDecoration: 'none', color: 'white', marginTop: '20pt'}}>
                     <FaArrowLeft style={{marginRight: 10}}/>Back to Projects
-                </Link>Z
+                </Link>
             </div>
             <div className="Project" style={ window.innerWidth > 600 ? { width: 600, margin: '20pt' } : {flex: 1, marginTop: '20pt'} }>
                 
