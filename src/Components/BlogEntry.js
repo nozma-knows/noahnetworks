@@ -15,7 +15,7 @@ function BlogEntry() {
     const post = location.state.post
 
     return (
-        <div className="BlogEntry-View" style={ {height: '100vh'} }>
+        <div className="BlogEntry-View">
             <div className="BlogEntry" style={ window.innerWidth > 600 ? {width: 600} : {flex: 1} }>
                 <div className="BlogEntry-Back-Button">
                     <Link to={'/Blog'} style={{ display: 'flex', alignItems: 'center', textDecoration: 'none', color: 'white'}}>

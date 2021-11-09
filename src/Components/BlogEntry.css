@@ -1,6 +1,7 @@
 .BlogEntry-View {
     display: flex;
     flex: 1;
+    min-height: calc(100vh - 30pt);
     background: linear-gradient(#000000, #170F45);
     justify-content: center;
 }
