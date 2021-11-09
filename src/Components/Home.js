@@ -28,7 +28,7 @@ function Home({ width, height }) {
             </div>
             <div className="Test-2" style={ width > 880 ? { marginTop: '30pt' } : { } }>Hello</div> */}
             <div className="Home">
-                <div className="Home-Title" style={ width > 650 ? {fontSize: '40px', width: 600 } : width > 550 ? { fontSize: '30px', width: 500 } : { fontSize: '25px', width: 400 } }>
+                <div className="Home-Title" style={ width > 650 ? {fontSize: '40px', width: 600 } : width > 550 ? { fontSize: '30px', width: 500 } : width > 450 ? { fontSize: '25px', width: 400 } : width > 350 ? { fontSize: '20px', width: 300 } : { fontSize: '2px', width: 300 } }>
                     Welcome to Noah Milberger's Personal Website!
                 </div>
                 <div className="Home-Description-Box" style={ width > 650 ? {width: '200pt', height: '200pt', fontSize: '15pt'} : width >  550 ? {width: '175pt', height: '175pt', fontSize: '12pt'} : {width: '150pt', height: '150pt', fontSize: '10pt'}}>
