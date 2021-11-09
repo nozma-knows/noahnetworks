@@ -2,6 +2,7 @@
     display: flex;
     flex: 1;
     justify-content: center;
+    background: linear-gradient(#000000, #182815 );
 }
 
 .Login {

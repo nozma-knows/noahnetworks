@@ -79,20 +79,35 @@
 }
 
 .Home-Description-Box {
-    display: flex;
+    /* display: flex;
     min-width: 125pt;
     min-height: 125pt;
-    /* margin: 20pt; */
+    margin: 20pt;
     padding: 10pt;
     margin-top: 40pt;
     margin-right: 20pt;
-    /* margin: 20pt; */
+    margin: 20pt;
     border-radius: 10pt;
     font-size: '20px'; 
     background-color: rgba(0, 0, 0, 0.2);
-    /* opacity: 0.05; */
+    opacity: 0.05;
     animation: changeBackgroundOpacity 10s infinite;
-    border: solid 2px rgba(255, 255, 255, 0.1);
+    border: solid 2px rgba(255, 255, 255, 0.1); */
+
+    display: flex;
+    /* flex: 0.2; */
+    height: 100pt;
+    padding: 10pt;
+    /* margin: 20pt; */
+    margin-right: 20pt;
+    margin-top: 40pt;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Urbanist;
+    animation: changeBackgroundOpacity 10s infinite;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5pt;
     
 }
 

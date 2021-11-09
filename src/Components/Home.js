@@ -32,10 +32,10 @@ function Home({ width, height }) {
                     Welcome to Noah Milberger's Personal Website!
                 </div>
                 <div className="Home-Description-Box" style={ width > 650 ? {width: '200pt', height: '200pt', fontSize: '15pt'} : width >  550 ? {width: '175pt', height: '175pt', fontSize: '12pt'} : {width: '150pt', height: '150pt', fontSize: '10pt'}}>
-                    <div style={{}} className="Home-Description-Text">
+                    {/* <div style={{}} className="Home-Description-Text"> */}
                         Hi, my name is Noah. I’m a passionate learner, creator and friend.
                         My goal is to make the world happier. I choose to do it through innovation.
-                    </div>
+                    {/* </div> */}
                 </div>
             </div>
         </div>
