@@ -76,7 +76,7 @@ function BlogForm({ width, height }) {
                     style={{ marginBottom: '20pt'}}
                 />
                 <div className="BlogForm-Entry-Display">
-                    <div className="BlogForm-Entry-Title"style={{ alignSelf: 'center', padding: '10pt', fontFamily: 'Urbanist', fontSize: '15pt', color: 'white', backgroundColor: 'rgba(255, 255, 255, 0.1)', marginTop: '10pt', borderRadius: '5pt'}}>Blog Preview</div>
+                    <div className="BlogForm-Entry-Title"style={{ display: 'flex', justifyContent: 'center', padding: '10pt', fontFamily: 'Urbanist', fontSize: '15pt', color: 'white', borderTopLeftRadius: '5pt', borderTopRightRadius: '5pt', backgroundColor: 'rgba(255, 255, 255, 0.1)'}}>Blog Preview</div>
                     <div className="Markdown-Text">
                         <ReactMarkdown 
                             children={post.entry} 

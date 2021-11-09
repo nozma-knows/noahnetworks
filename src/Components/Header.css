@@ -77,7 +77,7 @@
     flex-direction: column;
     border-bottom-left-radius: 5pt;
     border-bottom-right-radius: 5pt;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.4);
 }
 
 .Nav-DropDown-Button{

@@ -35,6 +35,10 @@
     /* : Slide-Left 1s 0.2s forwards; */
 }
 
+.Project-Item:hover {
+    border-color: rgba(255, 255, 255, 0.8);
+}
+
 .Project-Item-Links {
     display: flex;
     height: 30pt;
