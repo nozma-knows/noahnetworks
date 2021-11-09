@@ -109,7 +109,7 @@
 
 .video {
     display: flex;
-    border: solid 10pt rgba(255, 255, 255, 0.05);
+    border: solid 10pt rgba(255, 255, 255, 0.1);
     border-radius: 10pt;
     /* margin-top: 20pt; */
     margin-bottom: 20pt;

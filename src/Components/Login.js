@@ -46,18 +46,6 @@ function Login({ width, height }) {
         <div className="Login-View">
             <div className="Login">
                 <div>
-                    {`Username: ${username}`}
-                </div>
-                <div>
-                    {`Email: ${email}`}
-                </div>
-                <div>
-                    {`Phone Number: ${phoneNumber}`}
-                </div>
-                <div>
-                    {`Admin: ${isAdmin ? 'True' : 'False'}`}
-                </div>
-                <div>
                     <AmplifySignOut />
                 </div>
             </div>
