@@ -14,7 +14,6 @@
     /* flex-direction: column; */
     flex: 1;
     height: calc(100vh - 30pt);
-    justify-content: space-between;
     /* align-items: center; */
     overflow: hidden;
     /* background-color: saddlebrown; */
@@ -97,8 +96,9 @@
     display: flex;
     /* flex: 0.2; */
     height: 100pt;
-    padding: 10pt;
+    padding: 20pt;
     /* margin: 20pt; */
+    margin-left: 20pt;
     margin-right: 20pt;
     margin-top: 40pt;
     justify-content: center;

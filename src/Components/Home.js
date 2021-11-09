@@ -27,11 +27,14 @@ function Home({ width, height }) {
                 />
             </div>
             <div className="Test-2" style={ width > 880 ? { marginTop: '30pt' } : { } }>Hello</div> */}
-            <div className="Home">
-                <div className="Home-Title" style={ width > 650 ? {fontSize: '40px', width: 600 } : width > 550 ? { fontSize: '30px', width: 500 } : width > 450 ? { fontSize: '25px', width: 400 } : width > 350 ? { fontSize: '20px', width: 300 } : { fontSize: '18px', width: 250 } }>
-                    Welcome to Noah Milberger's Personal Website!
+            <div className="Home" style={ width > 880 ? { justifyContent: 'space-between' } : { justifyContent: 'center' } }>
+                <div 
+                    // className="Home-Title" 
+                    style={ width > 880 ? {fontSize: '40px', width: 600 } : {} }
+                >
+                    {/* Welcome to Noah Milberger's Personal Website! */}
                 </div>
-                <div className="Home-Description-Box" style={ width > 650 ? {width: '200pt', height: '200pt', fontSize: '15pt'} : width >  550 ? {width: '175pt', height: '175pt', fontSize: '12pt'} : {width: '150pt', height: '150pt', fontSize: '10pt'}}>
+                <div className="Home-Description-Box" style={ width > 880 ? {width: '200pt', height: '200pt', fontSize: '15pt'} : width >  550 ? {width: '300pt', height: '50pt', fontSize: '12pt'} : {flex: 1, height: '50pt', fontSize: '10pt'}}>
                     {/* <div style={{}} className="Home-Description-Text"> */}
                         Hi, my name is Noah. I’m a passionate learner, creator and friend.
                         My goal is to make the world happier. I choose to do it through innovation.
