@@ -5,7 +5,7 @@ import { BsGithub, BsLink45Deg } from "react-icons/bs";
 
 import './Project.css';
 
-function Project() {
+function Project({width, height}) {
 
     let project = ''
     const location = useLocation()
@@ -18,10 +18,10 @@ function Project() {
 
     return (
         <div className="Project-View">
-            <div className="Project-Back-Button" style={ window.innerWidth > 600 ? {width: 600} : {width: '80%'} }>
+            <div className="Project-Back-Button" style={ width > 620 ? {width: 600} : width > 600 ? {width: 600, marginLeft: '20pt'} : {width: '100%', marginLeft: '20pt'} }>
                 <Link to={'/Projects'} style={{ display: 'flex', alignItems: 'center', textDecoration: 'none', color: 'white', marginTop: '20pt'}}>
                     <FaArrowLeft style={{marginRight: 10}}/>Back to Projects
-                </Link>
+                </Link>Z
             </div>
             <div className="Project" style={ window.innerWidth > 600 ? { width: 600, margin: '20pt' } : {flex: 1, marginTop: '20pt'} }>
                 
