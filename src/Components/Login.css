@@ -1,6 +1,7 @@
 .Login-View {
     display: flex;
     flex: 1;
+    height: calc(100vh - 30pt);
     justify-content: center;
     background: linear-gradient(#000000, #182815 );
 }
