@@ -23,7 +23,7 @@ function Project() {
                     <FaArrowLeft style={{marginRight: 10}}/>Back to Projects
                 </Link>
             </div>
-            <div className="Project" style={ window.innerWidth > 600 ? {width: 600} : {flex: 1} }>
+            <div className="Project" style={ window.innerWidth > 600 ? { width: 600, margin: '20pt' } : {flex: 1, marginTop: '20pt'} }>
                 
                 {
                     project === 'Anonymess' ?
