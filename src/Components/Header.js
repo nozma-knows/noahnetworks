@@ -47,7 +47,7 @@ function Header({ current, width, height }) {
             <Link
                 to="#"
                 onClick={(e) => {
-                    window.location = `${mailto}?subject=Noah Networks Inquiry`;
+                    window.open(`${mailto}?subject=Noah Networks Inquiry`, "_blank")
                     e.preventDefault();
                 }}
                 style={{ textDecoration: 'none' }}
@@ -142,7 +142,7 @@ function Header({ current, width, height }) {
                         }
                     </div>
                     <div>
-                        <SendEmail label="Contact" mailto="mailto:n.milberger@gmail.com"/> 
+                        <SendEmail label="Contact" mailto="mailto:n.milberger@gmail.com" /> 
                     </div>
                     <div>
                         <Link to={'/Login'} style={{ textDecoration: 'none' }}>
