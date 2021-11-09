@@ -13,6 +13,7 @@
     display: flex;
     /* flex: 1; */
     height: 40pt;
+    /* animation: headerColorPattern 5s ease infinite; */
     background: linear-gradient(to right, #79B473, #70A37F, #41658A, #414073, #4C3957);
     border-bottom: 1px solid white;
     justify-content: space-between;
@@ -94,3 +95,21 @@
     font-family: 'Urbanist';
     src: local('Urbanist'), url(./../fonts/Urbanist-Black.ttf) format('truetype');
 }
+
+/* @keyframes headerColorPattern {
+    0% {
+        background: linear-gradient(to right, #79B473, #70A37F, #41658A, #414073, #4C3957);
+    }
+    25% {
+        background: linear-gradient(to right, #4C3957, #79B473, #70A37F, #41658A, #414073);
+    }
+    50% {
+        background: linear-gradient(to right,#414073, #4C3957, #79B473, #70A37F, #41658A);
+    }
+    75% {
+        background: linear-gradient(to right, #41658A, #414073, #4C3957, #79B473, #70A37F);
+    }
+    100% {
+        background: linear-gradient(to right, #70A37F, #41658A, #414073, #4C3957, #79B473);
+    }
+} */
