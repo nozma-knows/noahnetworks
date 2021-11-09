@@ -1,7 +1,8 @@
 .Header-View {
     display: flex;
+    flex: 1;
     /* height: 40pt; */
-    width: 100vw;
+    min-width: 100vw;
     flex-direction: column;
     background-color: black;
     position: fixed;
