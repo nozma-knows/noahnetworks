@@ -1,0 +1,31 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-noahnetworks-dev-82247-authRole",
+      "UnauthRoleArn": "arn:aws:iam::617623427215:role/amplify-noahnetworks-dev-82247-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::617623427215:role/amplify-noahnetworks-dev-82247-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-noahnetworks-dev-82247-deployment",
+      "UnauthRoleName": "amplify-noahnetworks-dev-82247-unauthRole",
+      "StackName": "amplify-noahnetworks-dev-82247",
+      "StackId": "arn:aws:cloudformation:us-east-1:617623427215:stack/amplify-noahnetworks-dev-82247/6dc9ded0-3b0e-11ec-afe2-0eef82912825",
+      "AmplifyAppId": "d3k566xvugj9p1"
+    },
+    "categories": {
+      "function": {
+        "noahnetworks4fcef272PostConfirmation": {
+          "GROUP": "Admin",
+          "deploymentBucketName": "amplify-noahnetworks-dev-82247-deployment",
+          "s3Key": "amplify-builds/noahnetworks4fcef272PostConfirmation-6669427771442b68696e-build.zip"
+        },
+        "noahnetworksblogdbfunction": {
+          "deploymentBucketName": "amplify-noahnetworks-dev-82247-deployment",
+          "s3Key": "amplify-builds/noahnetworksblogdbfunction-3459627732622b52645a-build.zip"
+        }
+      },
+      "auth": {
+        "noahnetworks4fcef272": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,116 @@
+.About-View {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    padding-top: 20pt;
+    min-height: calc(100vh - 30pt);
+    background: linear-gradient(#000000, #18251C );
+}
+
+.About {
+    display: flex;
+    /* flex: 1; */
+    flex-direction: column;
+    align-items: center;
+    margin: 20pt;
+    /* background-color: blue; */
+}
+
+.About-Main {
+    display: flex;
+}
+
+.About-Title {
+    display: flex;
+    color: white;
+    /* margin-top: 20pt; */
+    font-family: Urbanist;
+    font-size: 40pt;
+}
+
+.About-Links {
+    display: flex;
+    margin-top: 20pt;
+    margin-bottom: 20pt;
+    color: white;
+}
+
+.About-Info {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    /* background-color: green; */
+}
+
+.About-Info-Item {
+    display: flex;
+    
+    padding: 10pt;
+    border: solid 1pt rgba(255, 255, 255, 0.6);
+    border-radius: 5pt;
+    justify-content: center;
+    text-align: start;
+    margin-bottom: 20pt;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.About-Info-Item-Container {
+    display: flex;
+    width: 250pt;
+    flex-direction: column;
+    /* background-color: paleturquoise; */
+}
+
+.About-Info-Item-Category {
+    margin-bottom: 10pt;
+    align-self: center;
+    font-family: Urbanist;
+    font-size: 25pt;
+    font-weight: bold;
+}
+
+.About-Info-Item-Title {
+    display: flex;
+    /* margin-bottom: 10pt; */
+    align-self: flex-start;
+
+}
+
+.About-Education-Logo {
+    display: flex;
+    align-items: center;
+    margin-right: 10pt;
+    /* background-color: yellow; */
+}
+
+.About-Education-Name {
+    display: flex;
+    align-items: center;
+    font-family: Urbanist;
+    font-size: 15pt;
+    font-weight: bold;
+    /* background-color: green; */
+}
+
+.About-Education-Details {
+    display: flex;
+    flex-direction: column;
+    /* background-color: orange; */
+}
+
+.About-Education-Details-Item {
+    font-family: Roboto;
+    padding-left: 10pt;
+    font-size: 10pt;
+    margin: 5pt;
+    /* background-color: orchid; */
+}
+
+.video {
+    display: flex;
+    border: solid 10pt rgba(255, 255, 255, 0.05);
+    border-radius: 10pt;
+    /* margin-top: 20pt; */
+    margin-bottom: 20pt;
+}

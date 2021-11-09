@@ -1,0 +1,83 @@
+.BlogEntry-View {
+    display: flex;
+    flex: 1;
+    background: linear-gradient(#000000, #170F45);
+    justify-content: center;
+}
+
+.BlogEntry {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    align-items: center;
+}
+
+.BlogEntry-Back-Button {
+    display: flex;
+    align-self: flex-start;
+    margin-bottom: 20px;
+}
+
+.BlogEntry-Post {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: red; */
+}
+
+.BlogEntry-Details {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.BlogEntry-Type {
+    display: flex;
+    margin-right: 10px;
+    color: #7C36F3;
+    font-weight: bold;
+}
+
+.BlogEntry-Date {
+    display: flex;
+    color: #F37C36;
+    font-weight: bold;
+}
+
+.BlogEntry-Title {
+    display: flex;
+    margin-bottom: 40px;
+    color: white;
+    text-align: start;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+.BlogEntry-Author {
+    display: flex;
+    flex: 0.3;
+    align-items: center;
+    margin-bottom: 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.BlogEntry-Image {
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    margin-right: 20px;
+}
+
+.BlogEntry-Author-Text {
+    display: flex;
+}
+
+.BlogEntry-Entry {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    color: white;
+    text-align: start;
+}

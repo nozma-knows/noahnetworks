@@ -1,0 +1,139 @@
+.Home-View {
+    display: flex;
+    flex: 1;
+    overflow: hidden;  
+    background: linear-gradient(#000000, #182815 );
+
+}
+
+.Home {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: calc(100vh - 30pt);
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+}
+
+.Home-Title {
+    display: flex;
+    /* flex: 0.2; */
+    margin-top: 40pt;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    color: white;
+    font-family: Urbanist;
+    /* background-color: blue; */
+}
+
+.Home-Main {
+    display: flex;
+    /* flex: 0.8; */
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 40pt;
+    /* background-color: green; */
+}
+
+.Home-Image {
+
+    display: flex;
+    flex: 0.5;
+    /* align-self: center; */
+    width: 50vw;
+    justify-content: flex-end;
+    align-items: center;
+    /* background-color: green; */
+    /* animation: left 4s forwards; */
+
+}
+
+.Home-Background-Image {
+    position: absolute;
+    top: 50%;
+    animation: spin 60s infinite;
+    overflow: hidden;
+}
+
+.Profile-Image {
+    display: flex;
+    border-radius: 1000pt;
+    margin-right: 20pt;
+    border: solid 2px rgba(255, 255, 255, 0.1);
+}
+
+.Home-Description {
+    display: flex;
+    /* background-color: orange; */
+}
+
+.Home-Description-Box {
+    display: flex;
+    /* width: 200pt;
+    height: 200pt; */
+    /* margin: 20pt; */
+    border-radius: 10pt;
+    font-size: '20px'; 
+    background-color: rgba(255, 255, 255, 0.04);
+    /* opacity: 0.05; */
+    border: solid 2px rgba(255, 255, 255, 0.1);
+    
+}
+
+.Home-Description-Text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Roboto;
+    display: flex;
+    flex: 1;
+    color: white;
+}
+
+.Home-Background {
+    display: flex;
+}
+
+.Test {
+    display: flex;
+    /* flex: 1; */
+    /* height: calc(100vh - 30pt - 20pt - 30pt); */
+    margin-top: 30pt;
+    margin-left: 20pt;
+    margin-bottom: 20pt;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 20pt;
+    /* background-color: silver; */
+}
+
+.Test-2 {
+    display: flex;
+    flex: 1;
+    margin-left: 20pt; 
+    margin-right: 20pt;
+    margin-bottom: 20pt;
+
+    background-color: wheat;
+}
+
+@font-face {
+    font-family: 'Acme';
+    src: local('Acme'), url(./../fonts/Acme-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto'), url(./../fonts/Roboto-Bold.ttf) format('truetype');
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

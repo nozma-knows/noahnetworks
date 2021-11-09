@@ -1,0 +1,83 @@
+.Project-View {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background: linear-gradient(#000000, #170F45);
+    justify-content: center;
+    align-items: center;
+}
+
+.Project {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5pt;
+    
+}
+
+.Project-Back-Button {
+    display: flex;
+    align-self: center;
+    margin-top: 20px;
+}
+
+.Anonymess {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.Noah-Networks {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.Renewed-Mood {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.Project-Title {
+    display: flex;
+    width: 200px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 40pt;
+}
+
+.Project-Description {
+    display: flex;
+    margin: 20pt;
+    text-align: justify;
+    /* background-color: green; */
+    color: white;
+}
+
+.Noah-Networks {
+    display: flex;
+    color: white;
+}
+
+.Renewed-Mood {
+    display: flex;
+    color: white;
+}
+
+.Logo {
+    display: flex;
+    font-weight: bold;
+    /* font-size: 60pt; */
+    /* font-family: Righteous; */
+    /* margin-bottom: 11pt; */
+    color: white;
+
+}

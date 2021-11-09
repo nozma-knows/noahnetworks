@@ -1,0 +1,96 @@
+.Header-View {
+    display: flex;
+    /* height: 40pt; */
+    width: 100vw;
+    flex-direction: column;
+    background-color: black;
+    position: fixed;
+    z-index: 9999;
+
+}
+
+.Header {
+    display: flex;
+    /* flex: 1; */
+    height: 40pt;
+    background: linear-gradient(to right, #79B473, #70A37F, #41658A, #414073, #4C3957);
+    border-bottom: 1px solid white;
+    justify-content: space-between;
+    /* border-style: solid;
+    border-width: 1px;
+    border-color: darkgrey; */
+}
+
+.Header-Title {
+    display: flex;
+    align-items: center;
+    margin-left: 15pt;
+    font-family: Urbanist;
+    font-size: 25pt;
+    /* background-color: blue; */
+}
+
+.Nav {
+    display: flex;
+    flex-direction: row;
+    /* background-color: blue; */
+    align-items: center;
+    margin-right: 15pt;
+
+}
+
+/* .Nav-Button-Container {
+    display: flex;
+    justify-content: center;
+    border: 1px solid white;
+    padding: 5pt;
+    width: 80pt;
+} */
+
+.Nav-Button {
+    display: flex;
+    flex: 1;
+    margin-left: 15pt;
+    font-family: Roboto;
+    font-size: 18px;
+    color: white;
+    /* background-color: silver; */
+}
+
+.Nav-Button:hover {
+    color: powderblue;
+    font-family: Urbanist;
+}
+
+.Nav-DropDown {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15pt;
+    font-size: 22pt;
+    color: white;
+}
+
+.Nav-DropDown-Menu {
+    display: flex;
+    flex-direction: column;
+    border-bottom-left-radius: 5pt;
+    border-bottom-right-radius: 5pt;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.Nav-DropDown-Button{
+    display: flex;
+    /* background-color: blue; */
+}
+
+.Nav-DropDown-Button:hover{
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 5pt;
+}
+
+@font-face {
+    font-family: 'Urbanist';
+    src: local('Urbanist'), url(./../fonts/Urbanist-Black.ttf) format('truetype');
+}

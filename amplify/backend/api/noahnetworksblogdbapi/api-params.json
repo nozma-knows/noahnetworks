@@ -1,0 +1,45 @@
+{
+  "paths": [
+    {
+      "name": "/posts",
+      "lambdaFunction": "noahnetworksblogdbfunction",
+      "privacy": {
+        "protected": true,
+        "auth": [
+          "/POST",
+          "/GET",
+          "/PUT",
+          "/PATCH",
+          "/DELETE"
+        ],
+        "unauth": [
+          "/GET"
+        ]
+      },
+      "policyResourceName": "/posts"
+    }
+  ],
+  "resourceName": "noahnetworksblogdbapi",
+  "apiName": "noahnetworksblogdbapi",
+  "functionArns": [
+    {
+      "lambdaFunction": "noahnetworksblogdbfunction"
+    }
+  ],
+  "privacy": {
+    "auth": 1,
+    "unauth": 1,
+    "authRoleName": "amplify-noahnetworks-dev-82247-authRole",
+    "unAuthRoleName": "amplify-noahnetworks-dev-82247-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "noahnetworksblogdbfunction",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}

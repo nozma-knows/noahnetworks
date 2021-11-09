@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "auth": {
+      "noahnetworks4fcef272": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ]
+    },
+    "storage": {
+      "noahnetworksblogdb": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ]
+    }
+  },
+  "lambdaLayers": []
+}

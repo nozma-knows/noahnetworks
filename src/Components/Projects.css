@@ -1,0 +1,149 @@
+.Projects {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(#000000, #141F2A );
+    color: white;
+}
+
+.Projects-Title {
+    display: flex;
+    width: 200px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: Urbanist;
+}
+
+.Project-Item {
+    display: flex;
+    flex-direction: column;
+    height: 120pt;
+    margin-left: 40pt;
+    margin-right: 40pt;
+    margin-bottom: 40pt;
+    border-radius: 5pt;
+    border: solid 2pt rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.04);
+    /* sbackground-color: white; */
+    /* : Slide-Left 1s 0.2s forwards; */
+}
+
+.Project-Item-Links {
+    display: flex;
+    height: 30pt;
+    justify-content: flex-end;
+    align-items: center;
+    /* padding-right: 5pt; */
+    /* background: green; */
+}
+
+.Project-Item-Info {
+    display: flex;
+    border-radius: 5pt;
+    color: white;
+    margin-left: 20pt;
+    /* background-color: blue; */
+}
+
+.Project-Item-Logo-Container {
+    display: flex;
+    margin-left: 20pt;
+    justify-content: center;
+    align-items: center;
+    width: 60pt;
+    height: 60pt;
+    border-radius: 5pt;
+    background-color: #7C36F3;
+    border: solid 1pt rgba(255, 255, 255, 0.5);
+}
+
+.Project-Item-Logo {
+    display: flex;
+    font-weight: bold;
+    /* font-size: 60pt; */
+    /* font-family: Righteous; */
+    /* margin-bottom: 11pt; */
+    color: white;
+
+}
+
+.Project-Item-Logo-Container-Anonymess {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60pt;
+    height: 60pt;
+    border-radius: 5pt;
+    background: black;
+    border: solid 1pt rgba(255, 255, 255, 0.5);
+
+}
+
+.Project-Item-Logo-Container-Noah-Networks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60pt;
+    height: 60pt;
+    border-radius: 5pt;
+    background: linear-gradient(to right, #79B473, #70A37F, #41658A, #414073, #4C3957);
+    border: solid 1pt rgba(255, 255, 255, 0.5);
+
+}
+
+.Project-Item-Logo-Container-Renewed-Mood {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60pt;
+    height: 60pt;
+    border-radius: 5pt;
+    background: #0EC27D;
+    border: solid 1pt rgba(255, 255, 255, 0.5);
+
+}
+
+.Project-Item-Details {
+    display: flex;
+    flex: 1;
+    height: 60pt;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    text-align: left;
+    margin-left: 10pt;
+    /* margin-bottom: 20pt; */
+    margin-right: 20pt;
+    border-radius: 5pt;
+    flex-direction: column;
+    /* border: solid 1pt rgba(255, 255, 255, 0.5); */
+}
+
+.Project-Item-Name {
+    display: flex;
+    margin-left: 5pt;
+    /* font-family: Righteous; */
+    font-size: 15pt;
+    color: #F37C36;
+    
+}
+
+.Project-Item-Description {
+    display: flex;
+    margin-left: 5pt;
+}
+
+/* @keyframes Slide-Left {
+    from {
+        margin-left: 40pt;
+    }
+    to {
+        align-self: flex-start;
+    }
+}  */

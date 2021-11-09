@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: Urbanist;
+  src: local('Urbanist'), url(./fonts/Urbanist-Black.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: Righteous;
+  src: url(./fonts/Righteous-Regular.ttf);
+}
+
+@font-face {
+  font-family: Comfortaa;
+  src: url(./fonts/Comfortaa-Bold.ttf);
+}

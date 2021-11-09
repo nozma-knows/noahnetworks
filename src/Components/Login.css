@@ -1,0 +1,11 @@
+.Login-View {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.Login {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40pt;
+}
