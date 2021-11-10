@@ -1,13 +1,14 @@
-.Login-View {
+.Signup-View {
     display: flex;
+    flex-direction: column;
     flex: 1;
-    justify-content: center;
-    margin-top: 10pt;
-    min-height: calc(100vh - 40pt);
-    background: linear-gradient(#000000, #182815 );
+    min-height: 100vh;
+    min-width: 100vw;
+    align-items: center;
+    background: linear-gradient(#000000, #182815);
 }
 
-.Login {
+.Signup {
     display: flex;
     flex-direction: column;
     /* flex: 1; */
@@ -16,9 +17,16 @@
     padding: 20pt;
     background-color: rgba(255, 255, 255, 0.05);
     border-radius: 5pt;
+    
 }
 
-.Login-Title {
+.Signup-Back-Button {
+    display: flex;
+    align-self: center;
+    margin-top: 20pt;
+}
+
+.Signup-Title {
     display: flex;
     align-self: center;
     color: white;
@@ -26,10 +34,10 @@
     font-size: 40pt;
 }
 
-.Input {
+.Signup-Input {
     display: flex;
     height: 25pt;
-    /* margin-top: 20pt; */
+    margin-top: 20pt;
     background-color: rgba(255, 255, 255, 0.1);
     color: white;
     border-radius: 5pt;
@@ -41,15 +49,16 @@
     padding: 10pt;
 }
 
-.Login-Password-Input {
+.Signup-Password-Input-Container {
     display: flex;
-    margin: 20pt;
+    flex-direction: row;
+    margin-Top: 20pt;
     justify-content: space-between;
     align-items: center;
     border-radius: 5pt;
 }
 
-.Password-Input {
+.Signup-Password-Input {
     display: flex;
     flex: 0.85;
     height: 25pt;
@@ -64,36 +73,19 @@
     border-radius: 5pt;
 }
 
-.Password-Input-Eye {
+.Signup-Password-Input-Eye {
     display: flex;
+    margin-left: 10pt;
     flex: 0.15;
     font-size: 20pt;
     color: white;
 }
 
-.Password-Input-Eye:hover {
+.Signup-Password-Input-Eye:hover {
     cursor: pointer;
 }
 
-.Login-Forgot-Password {
-    display: flex;
-    align-self: flex-end;
-    margin-right: 30pt;
-    color: white;
-}
-
-.Login-Forgot-Password:hover {
-    cursor: pointer;
-    text-decoration: underline;
-}
-
-.Login-Buttons {
-    display: flex;
-    justify-content: center;
-
-}
-
-.Button {
+.Signup-Button {
     display: flex;
     justify-content: center;
     align-self: center;
@@ -110,7 +102,7 @@
     font-weight: bold;
 }
 
-.Button:hover {
+.Signup-Button:hover {
     background-color: rgba(255, 255, 255, 0.9);
     color: black;
     cursor: pointer;

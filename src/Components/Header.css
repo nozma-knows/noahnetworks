@@ -1,3 +1,9 @@
+:root{
+    --overlay-color-1: #79B473;
+    --overlay-color-2: #4C3957;
+    --anim-duration: 10s;
+}
+
 .Header-View {
     display: flex;
     flex: 1;
@@ -16,6 +22,7 @@
     height: 40pt;
     /* animation: headerColorPattern 5s ease infinite; */
     background: linear-gradient(to right, #79B473, #70A37F, #41658A, #414073, #4C3957);
+    /* background: linear-gradient(to right, #79B473, #4C3957); */
     border-bottom: 1px solid white;
     justify-content: space-between;
     /* border-style: solid;

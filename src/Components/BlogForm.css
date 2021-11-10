@@ -1,13 +1,15 @@
 .BlogForm-View {
     display: flex;
     flex: 1;
+    margin-top: 10pt;
+    min-height: calc(100vh - 40pt);
     background: linear-gradient(#000000, #170F45);
 }
 
 .BlogForm {
     display: flex;
     flex: 1;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     flex-direction: column;
     margin: 40pt;
     border-radius: 5pt;

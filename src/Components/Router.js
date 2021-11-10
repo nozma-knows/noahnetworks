@@ -12,6 +12,7 @@ import Blog from './Blog';
 import BlogForm from './BlogForm';
 import BlogEntry from './BlogEntry';
 import Login from './Login';
+import Signup from './Signup';
 
 function Router() {
 
@@ -55,6 +56,7 @@ function Router() {
             <Route exact path="/BlogForm"><BlogForm width={width} height={height} /></Route>
             <Route exact path="/BlogEntry"><BlogEntry width={width} height={height} /></Route>
             <Route exact path="/Login"><Login width={width} height={height} /></Route>
+            <Route exact path="/Signup"><Signup width={width} height={height} /></Route>
             <Route><Home width={width} height={height} /></Route>
           </Switch>
         </div>
