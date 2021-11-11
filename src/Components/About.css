@@ -30,6 +30,9 @@
 
 .About-Links {
     display: flex;
+    /* flex: 1; */
+    justify-content: space-evenly;
+    /* background-color: tomato; */
     margin-top: 20pt;
     margin-bottom: 20pt;
     color: white;

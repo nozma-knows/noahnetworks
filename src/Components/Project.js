@@ -36,15 +36,18 @@ function Project({width, height}) {
                                 <BsGithub onClick={() => window.open('https://github.com/nozma-knows/secret-message', "_blank")} style={{ cursor: 'pointer', fontSize: '15pt', paddingRight: '10pt'}} />
                             </div>
                             <div className="Project-Description">
-                                Anonymess is a real-time anonymous message board. Users can enter a message which includes a title and entry, and that message is saved to the cloud and rendered to the website in real time.
+                                Anonymess is a real-time anonymous message board. Users can enter a message (title and entry), that message is saved to the cloud and rendered to the website in real time.
+                                Anonymess can be accessed at anonymess.app and the code for the project can be found on my Github at https://github.com/nozma-knows/secret-message
                             </div>
                             <div style={{fontWeight: 'bold'}}>Front-End</div>
                             <div className="Project-Description">
-                                Info about front end
+                                The front end for Anonymess is writen in Javascript using the React library. The interface of this web application is a form for writing to an AWS DynamoDB database
+                                using a GraphQL API. Entries saved in the database are read and displayed to the screen from newest to oldest and cannot be deleted.
                             </div>
                             <div style={{fontWeight: 'bold'}}>Back-End</div>
                             <div className="Project-Description">
-                                Info about back end
+                                The back end for Anonymess is written in Javascript and set up using the AWS CLI (Amazon Web Services Command Line Interface). 
+                                The back end consits of a GraphQL API that connects a DynamoDB database hosted by AWS and made accessible by the AWS console.
                             </div>
                         </div>
                     :
@@ -61,15 +64,21 @@ function Project({width, height}) {
                             <BsGithub onClick={() => window.open('https://github.com/nozma-knows/noahnetworks', "_blank")} style={{ cursor: 'pointer', fontSize: '15pt', paddingRight: '10pt'}} />
                         </div>
                         <div className="Project-Description">
-                            Noah Networks is my personal webiste! I use this web application as a portal to all of my projects and my personal blog.
+                            Noah Networks is my personal webiste! This web application is a portal to all of my projects and is used to host my blog and create blog entries. 
+                            Noah Networks is where you are now but just in case, you can find it at noahnetworks.com and the code can be found on my Github at https://github.com/nozma-knows/noahnetworks
                         </div>
                         <div style={{fontWeight: 'bold'}}>Front-End</div>
                         <div className="Project-Description">
-                            Info about front end
+                            The front end for Noah Networks is writen in Javascript using the React library. A sign up / sign in form allows users to log in. 
+                            If a users email is in a list of approved admins they have access to an addition tab called Forms for adding blog posts. Navigation is used in the client application to link between routes.
+                            These routes include: a home page, an about page, a projects page, a blog page, a contact page and a login page. Other routes can be accessed through the main pages mentioned.
                         </div>
                         <div style={{fontWeight: 'bold'}}>Back-End</div>
                         <div className="Project-Description">
-                            Info about back end
+                            The back end for Noah Networks is written in Javascript and set up using the AWS CLI (Amazon Web Services Command Line Interface). The main application logic lives in an AWS Lambda Funciton
+                            that's's running an Express Server. The express server has routes for the HTTP methods invoked on a DynamoBD NoSQL Database used to store blog posts. To interact with the main Lambda function an API is used for
+                            invoking the correct HTTP requests. Authentication is used to allow users to sign-in / sign-out and to enable administrator access for writing and deleting blog posts from the database. Finally, another Lambda Function 
+                            is used to place users with admin approved emails into the admin group upon sign-in.
                         </div>
                     </div>
                     :
@@ -91,9 +100,11 @@ function Project({width, height}) {
                             The user can select as many of the eight emotions defined by Plutchik's Wheel of Emotions and classify the intensity of the emotion and make notes about the emotion. These eight emotions include: joy, trust, fear,
                             surprise, sadness, disgust, anger and anticipation.
                             <br /><br />
-                            After an entry is completed it can be viewed on the "Entries View". If the entry is classified it's color will correspond to the mood of the user during the entry on a scale from Red to . Otherwise if unclassified
+                            After an entry is completed it can be viewed on the "Entries View". If the entry is classified it's color will correspond to the mood of the user during the entry on a scale from Red to Green. Otherwise if unclassified
                             the entry will be grey. Users can find all entries they've created in the Entries View. If clicked an expanded view of the entry can be seen in which a user can play, listen or read they're entry and see details about
                             the classification of the entry.
+                            <br /><br />
+                            The code for Renewed Mood is open source and can be found on Github at this address: https://github.com/Milbo-LLC/Renewed-Mood.
                         </div>
                         <div style={{fontWeight: 'bold'}}>Front-End</div>
                         <div className="Project-Description">
