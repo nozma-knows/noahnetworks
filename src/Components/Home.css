@@ -106,18 +106,18 @@
     color: white;
     font-family: Urbanist;
     animation: changeBackgroundOpacity 10s infinite;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.2);
     border-radius: 5pt;
     
 }
 
 .Home-Description-Text {
     display: flex;
-    text-align: 'left';
+    /* text-align: 'left'; */
     text-justify: 'inter-character';
     padding-left: '10pt';
     padding-right: '10pt';
-    justify-content: center;
+    /* justify-content: center; */
     flex-direction: column;
     font-family: Roboto;
     display: flex;
@@ -174,12 +174,15 @@
 @keyframes changeBackgroundOpacity {
     0% {
         background-color: rgba(0, 0, 0, 0.2);
+        border-radius: 5pt;
     }
     50% {
         background-color: rgba(0, 0, 0, 0.7);
+        border-radius: 500pt;
     }
     100% {
         background-color: rgba(0, 0, 0, 0.2);
+        border-radius: 5pt;
     }
 
 }

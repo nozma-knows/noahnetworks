@@ -12,6 +12,15 @@ import ti from '../images/ti-logo.png'
 import textron from '../images/textron.png'
 
 function About({ width, height }) {
+
+    const skills = {
+        Web: ['React', 'AWS'],
+        Mobile: ['React-Native', 'AWS'],
+        EmbeddedDesign: ['C', 'C++', 'Python', 'Altium', 'Eagle', 'Arduino'],
+        Music: ['Ableton']
+
+    }
+
     return (
         <div className="About-View">
             <div className="About" style={ width > 680 ? {width: 600} : {width: '80%'} }>
@@ -32,18 +41,50 @@ function About({ width, height }) {
                     <div className="About-Info-Item"> {/*style={ width > 680 ? {width: 600} : {width: '80%'} }> */}
                         <div className="About-Info-Item-Container">
                             <div className="About-Info-Item-Category">Hobbies</div>
-                            <div className="About-Info-Item-Title" style={{flexDirection: 'column'}}>
+                            <div className="About-Info-Item-Title">
+                                <img className="About-Education-Logo" style={{width: '40pt', height: '40pt', borderRadius: '40pt'}} src={ti} alt="Texas Instruments Logo" />
                                 <div className="About-Education-Name">Full Stack Web Development</div>
                             </div>
-                            <div className="About-Info-Item-Title" style={{flexDirection: 'column'}}>
+                            <ul className="About-Education-Type">
+                                {
+                                    skills.Web.map((skill) => {
+                                        return <li>{skill}</li>
+                                    })     
+                                }  
+                            </ul>
+                            <div className="About-Info-Item-Title">
+                                <img className="About-Education-Logo" style={{width: '40pt', height: '40pt', borderRadius: '40pt'}} src={ti} alt="Texas Instruments Logo" />
                                 <div className="About-Education-Name">Full Stack Mobile Development</div>
                             </div>
-                            <div className="About-Info-Item-Title" style={{flexDirection: 'column'}}>
+                            <ul className="About-Education-Type">
+                                {
+                                    skills.Mobile.map((skill) => {
+                                        return <li>{skill}</li>
+                                    })     
+                                }  
+                            </ul>
+                            <div className="About-Info-Item-Title">
+                                <img className="About-Education-Logo" style={{width: '40pt', height: '40pt', borderRadius: '40pt'}} src={ti} alt="Texas Instruments Logo" />
                                 <div className="About-Education-Name">Embedded System Design</div>
                             </div>
-                            <div className="About-Info-Item-Title" style={{flexDirection: 'column'}}>
+                            <ul className="About-Education-Type">
+                                {
+                                    skills.EmbeddedDesign.map((skill) => {
+                                        return <li>{skill}</li>
+                                    })     
+                                }  
+                            </ul>
+                            <div className="About-Info-Item-Title">
+                                <img className="About-Education-Logo" style={{width: '40pt', height: '40pt', borderRadius: '40pt'}} src={ti} alt="Texas Instruments Logo" />
                                 <div className="About-Education-Name">Making Music</div>
                             </div>
+                            <ul className="About-Education-Type">
+                                {
+                                    skills.Music.map((skill) => {
+                                        return <li>{skill}</li>
+                                    })     
+                                }  
+                            </ul>
                             <div className="About-Education-Details" style={{flexDirection: 'row', justifyContent: 'center', margin: '20pt'}}>
                                 <BsSpotify onClick={() => window.open('https://soundcloud.com/nozma_milbo', "_blank")} style={{ cursor: 'pointer', fontSize: '30pt', paddingRight: '40pt'}} />
                                 <FaSoundcloud onClick={() => window.open('https://open.spotify.com/artist/4E8WdPsxSsD1FDzCZslzwO', "_blank")} style={{ cursor: 'pointer', fontSize: '30pt', paddingRight: '20pt'}} />

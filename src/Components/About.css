@@ -74,6 +74,7 @@
     display: flex;
     /* margin-bottom: 10pt; */
     align-self: flex-start;
+    /* background-color: thistle; */
 
 }
 
@@ -91,6 +92,15 @@
     font-size: 15pt;
     font-weight: bold;
     /* background-color: green; */
+}
+
+.About-Education-Type {
+    display: flex;
+    flex-direction: column;
+    font-family: Urbanist;
+    font-size: 12pt;
+    margin-left: 30pt;
+    /* background-color: teal; */
 }
 
 .About-Education-Details {

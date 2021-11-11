@@ -60,14 +60,14 @@
     display: flex;
     flex: 1;
     margin-left: 15pt;
-    font-family: Roboto;
+    font-family: Urbanist;
     font-size: 18px;
     color: white;
     /* background-color: silver; */
 }
 
 .Nav-Button:hover {
-    color: powderblue;
+    color: rgba(255, 255, 255, 0.4);
     font-family: Urbanist;
 }
 
