@@ -16,7 +16,7 @@
         "noahnetworks4fcef272PostConfirmation": {
           "GROUP": "Admin",
           "deploymentBucketName": "amplify-noahnetworks-dev-82247-deployment",
-          "s3Key": "amplify-builds/noahnetworks4fcef272PostConfirmation-6669427771442b68696e-build.zip"
+          "s3Key": "amplify-builds/noahnetworks4fcef272PostConfirmation-764153646f352f577675-build.zip"
         },
         "noahnetworksblogdbfunction": {
           "deploymentBucketName": "amplify-noahnetworks-dev-82247-deployment",
