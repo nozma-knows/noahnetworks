@@ -10,6 +10,10 @@ import './About.css';
 import msu from '../images/msu-logo.png'
 import ti from '../images/ti-logo.png'
 import textron from '../images/textron.png'
+import react from '../images/react.png'
+import aws from '../images/aws.png'
+import arduino from '../images/arduino.png'
+import ableton from '../images/ableton.jpeg'
 
 function About({ width, height }) {
 
@@ -42,7 +46,7 @@ function About({ width, height }) {
                         <div className="About-Info-Item-Container">
                             <div className="About-Info-Item-Category">Hobbies</div>
                             <div className="About-Info-Item-Title">
-                                <img className="About-Education-Logo" style={{width: '40pt', height: '40pt', borderRadius: '40pt'}} src={ti} alt="Texas Instruments Logo" />
+                                <img className="About-Education-Logo" style={{width: '40pt', height: '40pt', borderRadius: '40pt'}} src={react} alt="React Logo" />
                                 <div className="About-Education-Name">Full Stack Web Development</div>
                             </div>
                             <ul className="About-Education-Type">
@@ -53,7 +57,7 @@ function About({ width, height }) {
                                 }  
                             </ul>
                             <div className="About-Info-Item-Title">
-                                <img className="About-Education-Logo" style={{width: '40pt', height: '40pt', borderRadius: '40pt'}} src={ti} alt="Texas Instruments Logo" />
+                                <img className="About-Education-Logo" style={{width: '40pt', height: '40pt', borderRadius: '40pt'}} src={aws} alt="AWS Logo" />
                                 <div className="About-Education-Name">Full Stack Mobile Development</div>
                             </div>
                             <ul className="About-Education-Type">
@@ -64,7 +68,7 @@ function About({ width, height }) {
                                 }  
                             </ul>
                             <div className="About-Info-Item-Title">
-                                <img className="About-Education-Logo" style={{width: '40pt', height: '40pt', borderRadius: '40pt'}} src={ti} alt="Texas Instruments Logo" />
+                                <img className="About-Education-Logo" style={{width: '40pt', height: '40pt', borderRadius: '40pt'}} src={arduino} alt="Arduino Logo" />
                                 <div className="About-Education-Name">Embedded System Design</div>
                             </div>
                             <ul className="About-Education-Type">
@@ -75,8 +79,8 @@ function About({ width, height }) {
                                 }  
                             </ul>
                             <div className="About-Info-Item-Title">
-                                <img className="About-Education-Logo" style={{width: '40pt', height: '40pt', borderRadius: '40pt'}} src={ti} alt="Texas Instruments Logo" />
-                                <div className="About-Education-Name">Making Music</div>
+                                <img className="About-Education-Logo" style={{width: '40pt', height: '40pt', borderRadius: '40pt'}} src={ableton} alt="Ableton Logo" />
+                                <div className="About-Education-Name">Music Production</div>
                             </div>
                             <ul className="About-Education-Type">
                                 {
