@@ -30,6 +30,7 @@ function Login({ width, height }) {
             .then(user => updateUser(user))
             .catch(e => console.log('Error finding user: ', e))
         checkSignedIn()
+        console.log(user)
     }, [])
 
     async function checkSignedIn() {
@@ -96,7 +97,28 @@ function Login({ width, height }) {
         <div className="Login-View">
             {
                 signedIn ?
-                    <AmplifySignOut style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }} onClick={() => handleAWSSignOut()} /> :
+                    <div>
+                        <div className="Profile" style={ width > 680 ? {width: 600} : {width: '80vw'} }>
+                            <div className="Profile-Welcome">{`Welcome, ${user.username}!`}</div>
+                            <div className="Profile-Item">
+                                <div className="Profile-Item-Content">Username</div>
+                                <div className="Profile-Item-Content">{user.username}</div>
+                            </div>
+                            <div className="Profile-Item">
+                                <div className="Profile-Item-Content">Email</div>
+                                <div className="Profile-Item-Content">{user.attributes.email}</div>
+                            </div>
+                            <div className="Profile-Item">
+                                <div className="Profile-Item-Content">Phone Number</div>
+                                <div className="Profile-Item-Content">{`(${user.attributes.phone_number.slice(2,5)}) ${user.attributes.phone_number.slice(5,8)} - ${user.attributes.phone_number.slice(8)}`}</div>
+                            </div>
+                            <div className="Profile-Item">
+                                <div className="Profile-Item-Content">Admin</div>
+                                <div className="Profile-Item-Content">{isAdmin ? 'True': 'False'}</div>
+                            </div>
+                        </div>
+                        <AmplifySignOut style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }} onClick={() => handleAWSSignOut()} />
+                    </div> :
                     <div className="Login" style={ width > 680 ? {width: 600} : {width: '80%'} }>
                         <div className="Login-Title">Log In</div>
                         <input 

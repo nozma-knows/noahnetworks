@@ -45,8 +45,14 @@ function Blog({ width, height }) {
 
     function getFirstSentence(entry) {
         try {
-            return entry.split('#')[2].split(/[.!?]/g)[0] + entry.split(/(?=[.!?])/g)[1].charAt(0)
-            // return entry.split(' # ')[0].split(/[.!?]/g)[0] + entry.split(/(?=[.!?])/g)[1].charAt(0)
+            if (entry.slice(0,2) === '# ') {
+                return entry.split('#')[2].split(/[.!?]/g)[0] + entry.split(/(?=[.!?])/g)[1].charAt(0)
+            } else if (entry.slice(0,2) === '##') {
+                return entry.split('##')[2].split(/[.!?]/g)[0] + entry.split(/(?=[.!?])/g)[1].charAt(0)
+            } else {
+                return entry.split(/[.!?]/g)[0] + entry.split(/(?=[.!?])/g)[1].charAt(0)
+
+            }
         } catch (err) {
             return entry
         }

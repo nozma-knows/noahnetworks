@@ -115,3 +115,33 @@
     color: black;
     cursor: pointer;
 }
+
+.Profile {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: Urbanist;
+    font-size: 15pt;
+    /* background-color: tomato; */
+
+}
+
+.Profile-Welcome {
+    display: flex;
+    align-self: center;
+    margin: 40pt;
+    font-size: 30pt;
+}
+
+.Profile-Item {
+    display: flex;
+    width: 100%;
+    margin-bottom: 10pt;
+    align-self: flex-start;
+    border-bottom: 2pt solid white;
+}
+
+.Profile-Item-Content {
+    display: flex;
+    flex: 0.5
+}
