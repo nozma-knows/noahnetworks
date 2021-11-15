@@ -77,6 +77,11 @@ function Login({ width, height }) {
             console.log('Error signing in: ', error)
         }
         updateCredentials(initialLoginState)
+        Auth.currentAuthenticatedUser()
+            .then(user => updateUser(user))
+            .catch(e => console.log('Error finding user: ', e))
+        checkSignedIn()
+        console.log(user)
     }
 
     const handleAWSSignOut = async() => {
