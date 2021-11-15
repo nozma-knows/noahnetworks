@@ -44,7 +44,7 @@ function About({ width, height }) {
                 </div>
                 <ReactPlayer
                     className="video"
-                    url= "videos/about.MOV"
+                    url= "videos/about.MP4"
                     width="100%"
                     height="100%"
                     controls={ true }
