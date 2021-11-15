@@ -32,8 +32,8 @@ function Project({width, height}) {
                                 anonymess
                             </div>
                             <div className="Project-Links">
-                                <BsLink45Deg onClick={() => window.open('https://www.anonymess.app/', "_blank")} style={{ cursor: 'pointer', fontSize: '15pt', paddingRight: '10pt'}} />
-                                <BsGithub onClick={() => window.open('https://github.com/nozma-knows/secret-message', "_blank")} style={{ cursor: 'pointer', fontSize: '15pt', paddingRight: '10pt'}} />
+                                <BsLink45Deg onClick={() => window.open('https://www.anonymess.app/', "_blank")} style={{ cursor: 'pointer', fontSize: '40pt', paddingRight: '10pt'}} />
+                                <BsGithub onClick={() => window.open('https://github.com/nozma-knows/secret-message', "_blank")} style={{ cursor: 'pointer', fontSize: '40pt', paddingRight: '10pt'}} />
                             </div>
                             <div className="Project-Description">
                                 Anonymess is a real-time anonymous message board. Users can enter a message (title and entry), that message is saved to the cloud and rendered to the website in real time.
@@ -60,8 +60,8 @@ function Project({width, height}) {
                             noah networks
                         </div>
                         <div className="Project-Links">
-                            <BsLink45Deg onClick={() => window.open('https://www.noahnetworks.com/', "_blank")} style={{ cursor: 'pointer', fontSize: '15pt', paddingRight: '10pt'}} />
-                            <BsGithub onClick={() => window.open('https://github.com/nozma-knows/noahnetworks', "_blank")} style={{ cursor: 'pointer', fontSize: '15pt', paddingRight: '10pt'}} />
+                            <BsLink45Deg onClick={() => window.open('https://www.noahnetworks.com/', "_blank")} style={{ cursor: 'pointer', fontSize: '40pt', paddingRight: '10pt'}} />
+                            <BsGithub onClick={() => window.open('https://github.com/nozma-knows/noahnetworks', "_blank")} style={{ cursor: 'pointer', fontSize: '40pt', paddingRight: '10pt'}} />
                         </div>
                         <div className="Project-Description">
                             Noah Networks is my personal webiste! This web application is a portal to all of my projects and is used to host my blog and create blog entries. 
@@ -76,7 +76,7 @@ function Project({width, height}) {
                         <div style={{fontWeight: 'bold'}}>Back-End</div>
                         <div className="Project-Description">
                             The back end for Noah Networks is written in Javascript and set up using the AWS CLI (Amazon Web Services Command Line Interface). The main application logic lives in an AWS Lambda Funciton
-                            that's's running an Express Server. The express server has routes for the HTTP methods invoked on a DynamoBD NoSQL Database used to store blog posts. To interact with the main Lambda function an API is used for
+                            that's running an Express Server. The express server has routes for the HTTP methods invoked on a DynamoBD NoSQL Database used to store blog posts. To interact with the main Lambda function an API is used for
                             invoking the correct HTTP requests. Authentication is used to allow users to sign-in / sign-out and to enable administrator access for writing and deleting blog posts from the database. Finally, another Lambda Function 
                             is used to place users with admin approved emails into the admin group upon sign-in.
                         </div>
@@ -92,7 +92,7 @@ function Project({width, height}) {
                         </div>
                         <div className="Project-Links">
                             {/* <BsLink45Deg onClick={() => window.open('https://www.noahnetworks.com/', "_blank")} style={{ cursor: 'pointer', fontSize: '15pt', paddingRight: '10pt'}} /> */}
-                            <BsGithub onClick={() => window.open('https://github.com/Milbo-LLC/Renewed-Mood', "_blank")} style={{ cursor: 'pointer', fontSize: '15pt', paddingRight: '10pt'}} />
+                            <BsGithub onClick={() => window.open('https://github.com/Milbo-LLC/Renewed-Mood', "_blank")} style={{ cursor: 'pointer', fontSize: '40pt', paddingRight: '10pt'}} />
                         </div>
                         <div className="Project-Description">
                             Renewed Mood is a mobile app for helping to track and improve your mood. You can use it to make video, audio and text entries and classify those entries based on your mood and emotions.

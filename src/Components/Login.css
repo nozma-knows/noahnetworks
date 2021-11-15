@@ -4,6 +4,8 @@
     justify-content: center;
     margin-top: 10pt;
     min-height: calc(100vh - 40pt);
+    /* min-width: 100vw; */
+    max-width: 100vw;
     background: linear-gradient(#000000, #182815 );
 }
 
