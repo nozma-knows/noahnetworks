@@ -73,8 +73,9 @@ function Login({ width, height }) {
         try {
             await Auth.signIn(credentials.username, credentials.password)
             setSignedIn(true)
-        } catch(error) {
-            console.log('Error signing in: ', error)
+        } catch(e) {
+            console.log(e)
+            alert(`Error signing in. ${e}`)
         }
         updateCredentials(initialLoginState)
         Auth.currentAuthenticatedUser()

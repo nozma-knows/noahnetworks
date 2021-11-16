@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Auth } from 'aws-amplify';
-import { Link } from 'react-router-dom';
+import { Link, useHistory } from 'react-router-dom';
 import { Button } from 'antd';
 import { FaArrowLeft } from 'react-icons/fa';
 import { BsEyeFill, BsEyeSlashFill} from "react-icons/bs";
@@ -16,6 +16,8 @@ const initialSignupState = {
 }
 
 function Signup({ width, height }) {
+
+    const history = useHistory()
 
     const [showPassword, setShowPassword] = useState(false)
     const [credentials, updateCredentials] = useState(initialSignupState)
@@ -45,7 +47,13 @@ function Signup({ width, height }) {
             setConfirmSignup(false)
             console.log('Error signing up: ', error)
         }
-        updateCredentials(initialSignupState)
+        updateCredentials({
+            username: credentials.username,
+            password: '',
+            email: '',
+            phoneNumber: '',
+            authenticationCode: '',
+        })
     }
 
     const handleAWSConfirmSignUp = async () => {
@@ -54,6 +62,8 @@ function Signup({ width, height }) {
         try {
             const { user } = await Auth.confirmSignUp(username, authenticationCode)
             alert(`Confirmed sign up!: ${user}`)
+            history.push('/Login')
+            updateCredentials(initialSignupState)
             console.log('User successfully confirmed sign up: ', user)
         } catch (error) {
             alert(`Error confirming sign up: ${error}`)

@@ -18,8 +18,8 @@ import ableton from '../images/ableton.jpeg'
 function About({ width, height }) {
 
     const skills = {
-        Web: ['React', 'AWS'],
-        Mobile: ['React-Native', 'AWS'],
+        Web: ['React', 'AWS', 'GraphQL'],
+        Mobile: ['React-Native', 'AWS', 'GraphQL', 'Swift'],
         EmbeddedDesign: ['C/C++', 'Python', 'Altium', 'Eagle', 'Arduino'],
         Music: ['Ableton']
     }
