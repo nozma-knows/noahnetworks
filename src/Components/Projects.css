@@ -1,7 +1,8 @@
 .Projects {
     display: flex;
-    flex: 1;
     flex-direction: column;
+    min-height: 100vh;
+    min-width: 100vw;
     align-items: center;
     background: linear-gradient(#000000, #141F2A );
     color: white;
