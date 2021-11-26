@@ -4,17 +4,7 @@
       "name": "/posts",
       "lambdaFunction": "noahnetworksblogdbfunction",
       "privacy": {
-        "protected": true,
-        "auth": [
-          "/POST",
-          "/GET",
-          "/PUT",
-          "/PATCH",
-          "/DELETE"
-        ],
-        "unauth": [
-          "/GET"
-        ]
+        "open": true
       },
       "policyResourceName": "/posts"
     }
@@ -27,8 +17,8 @@
     }
   ],
   "privacy": {
-    "auth": 1,
-    "unauth": 1,
+    "auth": 0,
+    "unauth": 0,
     "authRoleName": "amplify-noahnetworks-dev-82247-authRole",
     "unAuthRoleName": "amplify-noahnetworks-dev-82247-unauthRole"
   },
